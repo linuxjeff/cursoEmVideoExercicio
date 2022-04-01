@@ -27,8 +27,12 @@ from math import hypot
 #                             Variáveis                                       #
 ###############################################################################
 
+catetooposto = float(input('Digite o comprimento do cateto oposto: '))
+
+catetoadjacente = float(input('Digite o comprimento do cateto adjacente: '))
+
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
 
-print('o resultado é {}'.format(hypot(4, 6)))
+print('A hipotenusa vai medir: {}'.format(hypot(catetooposto, catetoadjacente)))
