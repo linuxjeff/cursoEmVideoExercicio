@@ -21,7 +21,7 @@
 #                             Bibliotecas                                     #
 ###############################################################################
 
-from math import cos, sin, tan
+from math import cos, sin, tan, radians
 
 ###############################################################################
 #                             Variáveis                                       #
@@ -29,8 +29,10 @@ from math import cos, sin, tan
 
 angulo = float(input('Qual é o angulo que deseja calcular?\n>>> '))
 
+rangul = radians(angulo)
+
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
 
-print('O angulo é {:.2f}\n Seu seno é {:.2f}\n Seu cosseno é {:.2f}\n Sua tangente é {:.2f}'.format(angulo, sin(angulo), cos(angulo), tan(angulo)))
+print('O angulo é {:.2f}\n Seu seno é {:.2f}\n Seu cosseno é {:.2f}\n Sua tangente é {:.2f}'.format(angulo, sin(rangul), cos(rangul), tan(rangul)))
