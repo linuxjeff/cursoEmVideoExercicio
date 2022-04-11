@@ -27,6 +27,10 @@
 
 nome = input('Digite seu nome e sobrinome\n>>> ')
 
+lista_do_split = nome.split()
+
+tudojunto = ''.join(lista_do_split)
+
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
@@ -34,3 +38,5 @@ nome = input('Digite seu nome e sobrinome\n>>> ')
 print(nome.upper())
 
 print(nome.lower())
+
+print(len(tudojunto))
