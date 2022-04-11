@@ -1,17 +1,17 @@
-# arquivo.py Descrição curta
+# arquivo.py Recebe nome e sobrenome
 #
 # Site :  https://github.com/linuxjeff
 # Autor:  Jefferson Santana <computadores.rp@gmail.com>
 #
 # -----------------------------------------------------------------------------
-# Descrição longa
+# Recebe nome e sobrenome e mostra varias curiosidades.
 #
 #       Exemplos:
-#		Coloque um exemplo
+#		./ex022
 # -----------------------------------------------------------------------------
 # Histórico:
 #
-#   v0.0.1 2022-03-17, Jefferson Santana:
+#   v0.0.1 2022-04-11, Jefferson Santana:
 #       - Versão inicial
 #
 # -----------------------------------------------------------------------------
