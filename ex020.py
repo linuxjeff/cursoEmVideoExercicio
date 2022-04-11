@@ -34,15 +34,7 @@ aluno3 = input('Qual o nome terceiro aluno?\n>>> ')
 aluno4 = input('Qual o nome do quarto aluno?\n>>> ')
 
 posicao = ['Primeiro', 'Segundo', 'Terceiro', 'Quarto']
-listaDeNomes = []
-
-listaDeNomes.append(aluno1)
-
-listaDeNomes.append(aluno2)
-
-listaDeNomes.append(aluno3)
-
-listaDeNomes.append(aluno4)
+listaDeNomes = [aluno1, aluno2, aluno3, aluno4]
 
 ###############################################################################
 #                             Programa Principal                              #
@@ -50,5 +42,8 @@ listaDeNomes.append(aluno4)
 
 shuffle(listaDeNomes)
 
+print('A ordem de apresentação será: ')
 for i in listaDeNomes:
     print('{}'.format(i))
+
+# print('O primeiro aluno é: {1}\n O segundo aluno é {2}\n O terceiro aluno é: {3}\n O quarto aluno é: {4}'.format(shuffle(listaDeNomes)))
