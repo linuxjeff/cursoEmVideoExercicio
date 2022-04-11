@@ -8,6 +8,12 @@
 #
 #       Exemplos:
 #		./ex022
+#       Digite seu nome e sobrinome
+#       >>> Jefferson Vitor de Santana
+#       JEFFERSON VITOR DE SANTANA
+#       jefferson vitor de santana
+#       O total de caracteres é: 23
+#       O total de caracteres do seu nome é: 9
 # -----------------------------------------------------------------------------
 # Histórico:
 #
