@@ -31,6 +31,8 @@ lista_do_split = nome.split()
 
 tudojunto = ''.join(lista_do_split)
 
+so_o_nome = lista_do_split[0]
+
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
@@ -39,4 +41,6 @@ print(nome.upper())
 
 print(nome.lower())
 
-print(len(tudojunto))
+print('O total de caracteres é: {}'.format(len(tudojunto)))
+
+print('O total de caracteres do seu nome é: {}'.format(len(so_o_nome)))
