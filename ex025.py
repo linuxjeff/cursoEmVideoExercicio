@@ -16,6 +16,7 @@
 #       - Criado o cabeçalho
 #       - Criado variável para receber nome e sobrenome
 #       - Criado if para teste da palavra silva
+#       - Criado o print para mostrar a resposta da pergunta
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -38,3 +39,5 @@ if 'silva' in nome_sobrenome.lower():
     resposta = 'Sim'
 else:
     resposta = 'Não'
+
+print('A palavra silva existe no nome ou sobrenome?\n{}'.format(resposta))
