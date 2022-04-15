@@ -15,6 +15,7 @@
 #       - Versão inicial
 #       - Criado o cabeçalho
 #       - Criado variável para receber nome e sobrenome
+#       - Criado if para teste da palavra silva
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -33,3 +34,7 @@ nome_sobrenome = str(input('Digite seu nome e sobrenome\n>>> '))
 #                             Programa Principal                              #
 ###############################################################################
 
+if 'silva' in nome_sobrenome.lower():
+    resposta = 'Sim'
+else:
+    resposta = 'Não'
