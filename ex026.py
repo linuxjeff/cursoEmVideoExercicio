@@ -9,6 +9,12 @@
 #
 #       Exemplos:
 #		./ex026.py
+#       Digite uma frase
+#       >>> Cara cadê meu carro!?
+#       A letra a aparece: 4
+#       O primeiro a esta na posição: 1
+#       O último a esta na posição: 15
+#
 # -----------------------------------------------------------------------------
 # Histórico:
 #
@@ -19,6 +25,7 @@
 #       - Criado o print que conta os números de a na frase
 #       - Criado o print que mostra a posição do primeiro a
 #       - Criado o print que mostra a posição do último a
+#       - Exemplo colocado no cabeçalho
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
