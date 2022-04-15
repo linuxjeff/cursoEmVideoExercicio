@@ -18,6 +18,7 @@
 #       - Criado variável para receber frase
 #       - Criado o print que conta os números de a na frase
 #       - Criado o print que mostra a posição do primeiro a
+#       - Criado o print que mostra a posição do último a
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -39,3 +40,5 @@ frase = str(input('Digite uma frase\n>>> '))
 print('A letra a aparece: {}'.format(frase.lower().count('a')))
 
 print('O primeiro a esta na posição: {}'.format(frase.lower().find('a')))
+
+print('O último a esta na posição: {}'.format(frase.lower().rfind('a')))
