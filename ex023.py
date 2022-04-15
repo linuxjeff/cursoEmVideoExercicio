@@ -8,6 +8,14 @@
 #
 #       Exemplos:
 #		./ex023.py
+#       Digite um número de 0 a 9999
+#       >>> 8426
+#       O número tem:
+#       Unidade 6
+#       Dezena 2
+#       Centena 4
+#       Milhar 8
+#
 # -----------------------------------------------------------------------------
 # Histórico:
 #
