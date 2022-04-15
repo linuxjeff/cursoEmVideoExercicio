@@ -34,9 +34,9 @@ cidade = str(input('Digite o nome da sua cidade: '))
 #                             Programa Principal                              #
 ###############################################################################
 
-if 'santo' not in cidade.lower():
-    resposta = 'Não'
-else:
+if cidade.lower().find('santo') == 0:
     resposta = 'Sim'
+else:
+    resposta = 'Não'
 
 print('A palavra santo esta presente no nome da cidade?\n{}'.format(resposta))
