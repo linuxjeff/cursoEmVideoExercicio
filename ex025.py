@@ -13,6 +13,7 @@
 #
 #   v0.0.1 2022-04-15, Jefferson Santana:
 #       - Versão inicial
+#       - Criado o cabeçalho
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
