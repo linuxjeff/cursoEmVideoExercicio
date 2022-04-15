@@ -4,7 +4,7 @@
 # Autor:  Jefferson Santana <computadores.rp@gmail.com>
 #
 # -----------------------------------------------------------------------------
-# Recebe o nome da cidade e verifica se a santo no nome.
+# Recebe o nome da cidade e verifica se a santo no nome é a primeira.
 #
 #       Exemplos:
 #		./ex024.py
