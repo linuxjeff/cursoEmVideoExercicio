@@ -16,6 +16,7 @@
 #       - Versão inicial
 #       - Criado o cabeçalho
 #       - Criado variável para receber frase
+#       - Criado o print que conta os números de a na frase
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -34,3 +35,4 @@ frase = str(input('Digite uma frase\n>>> '))
 #                             Programa Principal                              #
 ###############################################################################
 
+print('A letra a aparece: {}'.format(frase.lower().count('a')))
