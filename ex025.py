@@ -8,6 +8,10 @@
 #
 #       Exemplos:
 #		./ex025.py
+#       Digite seu nome e sobrenome
+#       >>> Lucas Silva e Silva
+#       A palavra silva existe no nome ou sobrenome?
+#       Sim
 # -----------------------------------------------------------------------------
 # Histórico:
 #
@@ -17,6 +21,7 @@
 #       - Criado variável para receber nome e sobrenome
 #       - Criado if para teste da palavra silva
 #       - Criado o print para mostrar a resposta da pergunta
+#       - Colocado o exemplo no cabeçalho
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
