@@ -17,6 +17,7 @@
 #       - Criado o cabeçalho
 #       - Criado variável para receber frase
 #       - Criado o print que conta os números de a na frase
+#       - Criado o print que mostra a posição do primeiro a
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -36,3 +37,5 @@ frase = str(input('Digite uma frase\n>>> '))
 ###############################################################################
 
 print('A letra a aparece: {}'.format(frase.lower().count('a')))
+
+print('O primeiro a esta na posição: {}'.format(frase.lower().find('a')))
