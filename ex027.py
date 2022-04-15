@@ -16,6 +16,7 @@
 #       - Criado cabeçalho
 #       - Criado variável que recebe o nome e sobrenome
 #       - Criado o split para pegar o primeiro nome e plintar na tela
+#       - Criado o rsplit para pegar o útilmo sobrenome
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -32,8 +33,12 @@ nome_sobrenome = str(input('Qual seu nome e sobrenome?\n>>> '))
 
 feito_split = nome_sobrenome.split()
 
+feito_rsplit = nome_sobrenome.rsplit(maxsplit=1)
+
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
 
 print('O primeiro nome é: {}'.format(feito_split[0]))
+
+print('O último sobrenome é: {}'.format(feito_rsplit[1]))
