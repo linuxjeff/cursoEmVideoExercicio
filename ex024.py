@@ -8,6 +8,9 @@
 #
 #       Exemplos:
 #		./ex024.py
+#       Digite o nome da sua cidade: Santo Amaro
+#       A palavra santo esta presente no nome da cidade?
+#       Sim
 # -----------------------------------------------------------------------------
 # Histórico:
 #
@@ -34,6 +37,6 @@ cidade = str(input('Digite o nome da sua cidade: '))
 if 'santo' not in cidade.lower():
     resposta = 'Não'
 else:
-    resposta = 'sim'
+    resposta = 'Sim'
 
 print('A palavra santo esta presente no nome da cidade?\n{}'.format(resposta))
