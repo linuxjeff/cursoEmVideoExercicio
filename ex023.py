@@ -31,4 +31,4 @@ numero = str(input('Digite um número de 0 a 9999\n>>> '))
 #                             Programa Principal                              #
 ###############################################################################
 
-print('O número tem:\nUnidade {}\nDezena {}\nCentena {}\nMilhar {}'.format(numero[0], numero[1], numero[2], numero[4]))
+print('O número tem:\nUnidade {}\nDezena {}\nCentena {}\nMilhar {}'.format(numero[3], numero[2], numero[1], numero[0]))
