@@ -8,6 +8,11 @@
 #
 #       Exemplos:
 #		./ex027.py
+#       Qual seu nome e sobrenome?
+#       >>> Berto Andrade da silva marcodes e prado da nogueira normado
+#       O primeiro nome é: Berto
+#       O último sobrenome é: normado
+#
 # -----------------------------------------------------------------------------
 # Histórico:
 #
@@ -17,6 +22,7 @@
 #       - Criado variável que recebe o nome e sobrenome
 #       - Criado o split para pegar o primeiro nome e plintar na tela
 #       - Criado o rsplit para pegar o útilmo sobrenome
+#       - Colocado um exemplo no cabeçalho
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
