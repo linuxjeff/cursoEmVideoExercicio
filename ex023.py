@@ -23,6 +23,7 @@
 #       - Versão inicial
 #   v0.0.2 2022-05-01, Jefferson Santana:
 #       - Bug de números com menos de 4 caracteres resolvido
+#       - Bug por não trocar tipo de variável resolvido
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -35,7 +36,7 @@
 #                             Variáveis                                       #
 ###############################################################################
 
-numero = str(input('Digite um número de 0 a 9999\n>>> '))
+numero = int(input('Digite um número de 0 a 9999\n>>> '))
 u = numero // 1 % 10
 d = numero // 10 % 10
 c = numero // 100 % 10
