@@ -26,6 +26,9 @@
 #       - Criado o print que mostra a posição do primeiro a
 #       - Criado o print que mostra a posição do último a
 #       - Exemplo colocado no cabeçalho
+#   v0.0.2 2022-05-05, Jefferson Santana:
+#       - Colocado os strip para retirar o espaço
+#       - Somar mais(+1) um nos resultados
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -44,8 +47,8 @@ frase = str(input('Digite uma frase\n>>> '))
 #                             Programa Principal                              #
 ###############################################################################
 
-print('A letra a aparece: {}'.format(frase.lower().count('a')))
+print('A letra a aparece: {}'.format(frase.strip().lower().count('a')))
 
-print('O primeiro a esta na posição: {}'.format(frase.lower().find('a')))
+print('O primeiro a esta na posição: {}'.format(frase.strip().lower().find('a')+1))
 
-print('O último a esta na posição: {}'.format(frase.lower().rfind('a')))
+print('O último a esta na posição: {}'.format(frase.strip().lower().rfind('a')+1))
