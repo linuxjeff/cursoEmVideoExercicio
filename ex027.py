@@ -23,6 +23,8 @@
 #       - Criado o split para pegar o primeiro nome e plintar na tela
 #       - Criado o rsplit para pegar o útilmo sobrenome
 #       - Colocado um exemplo no cabeçalho
+#   v0.0.2 2022-05-05, Jefferson Santana:
+#       - Uso do Strip para retirar os espaços
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -35,7 +37,7 @@
 #                             Variáveis                                       #
 ###############################################################################
 
-nome_sobrenome = str(input('Qual seu nome e sobrenome?\n>>> '))
+nome_sobrenome = str(input('Qual seu nome e sobrenome?\n>>> ')).strip()
 
 feito_split = nome_sobrenome.split()
 
