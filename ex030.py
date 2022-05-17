@@ -7,7 +7,10 @@
 # Programa verifica se número digitado é par ou impar
 #
 #       Exemplos:
-#		Coloque um exemplo
+#		./ex030.py
+#       Digite um número: 374
+#       O número 374 é par
+#
 # -----------------------------------------------------------------------------
 # Histórico:
 #
@@ -17,6 +20,7 @@
 #       - Criado variável para recolher número
 #       - Criado variável para recolher o resto da divisão
 #       - Criado if para verificar se número é par ou impar
+#       - Colocado exemplo no cabeçalho
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
