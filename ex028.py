@@ -17,6 +17,7 @@
 #       - Importado a função randrange
 #       - Criado variável que guarda o número
 #       - Criado a variável para recolher o numero do jogador
+#       - Criado o if que verifica o acerto ou erro do número
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -36,3 +37,9 @@ numeroDoJogador = int(input('Eu pensei em um número de zero a cinco.\nQual é?\
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
+if ( numero == numeroDoJogador):
+    print('O número que eu pensei foi: {}'.format(numero))
+    print('Você aceitou o número. ;)')
+else:
+    print('O número que eu pensei foi: {}'.format(numero))
+    print('Você errou o número. :D')
