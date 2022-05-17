@@ -16,6 +16,7 @@
 #       - Colocado o cabeçalho
 #       - Importado a função randrange
 #       - Criado variável que guarda o número
+#       - Criado a variável para recolher o numero do jogador
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -29,6 +30,8 @@ from random import randrange
 ###############################################################################
 
 numero = randrange(0, 6)
+
+numeroDoJogador = int(input('Eu pensei em um número de zero a cinco.\nQual é?\n>>> '))
 
 ###############################################################################
 #                             Programa Principal                              #
