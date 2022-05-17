@@ -16,6 +16,7 @@
 #       - Versão inicial
 #       - Criado cabeçalho
 #       - Criado a variável que recebe o número em quilômetros
+#       - Criado if que calcula o preço por quilômetro
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -33,3 +34,7 @@ QuilometrosDaViagem = float(input('Qual a distância da viagem em quilômetros?\
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
+if (QuilometrosDaViagem <= 200):
+    print('A distância é {} o preço da é de: R${:.2f}'.format(QuilometrosDaViagem, (QuilometrosDaViagem * 0.50)))
+else:
+    print('A distância é {} o preço da é de: R${:.2f}'.format(QuilometrosDaViagem, (QuilometrosDaViagem * 0.45)))
