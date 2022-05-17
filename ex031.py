@@ -15,6 +15,7 @@
 #   v0.0.1 2022-05-17, Jefferson Santana:
 #       - Versão inicial
 #       - Criado cabeçalho
+#       - Criado a variável que recebe o número em quilômetros
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -26,6 +27,8 @@
 ###############################################################################
 #                             Variáveis                                       #
 ###############################################################################
+
+QuilometrosDaViagem = float(input('Qual a distância da viagem em quilômetros?\n>>> '))
 
 ###############################################################################
 #                             Programa Principal                              #
