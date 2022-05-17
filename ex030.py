@@ -15,6 +15,7 @@
 #       - Versão inicial
 #       - Criado cabeçalho
 #       - Criado variável para recolher número
+#       - Criado variável para recolher o resto da divisão
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -28,6 +29,8 @@
 ###############################################################################
 
 Numero = int(input('Digite um número: '))
+
+RestoDaDivisao = Numero % 2
 
 ###############################################################################
 #                             Programa Principal                              #
