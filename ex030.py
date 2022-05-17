@@ -16,6 +16,7 @@
 #       - Criado cabeçalho
 #       - Criado variável para recolher número
 #       - Criado variável para recolher o resto da divisão
+#       - Criado if para verificar se número é par ou impar
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -36,3 +37,7 @@ RestoDaDivisao = Numero % 2
 #                             Programa Principal                              #
 ###############################################################################
 
+if (RestoDaDivisao == 1):
+    print('O número {} é impar.'.format(Numero))
+else:
+    print('O número {} é par'.format(Numero))
