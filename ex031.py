@@ -8,7 +8,10 @@
 # para destinos até 200 quilômetros.
 #
 #       Exemplos:
-#		Coloque um exemplo
+#		./ex031.py
+#       Qual a distância da viagem em quilômetros?
+#       >>> 219
+#       A distância é 219.0 o preço da é de: R$98.55
 # -----------------------------------------------------------------------------
 # Histórico:
 #
@@ -18,6 +21,7 @@
 #       - Criado a variável que recebe o número em quilômetros
 #       - Criado if que calcula o preço por quilômetro
 #       - Feito correção na descrição longa
+#       - Colocado exemplo no cabeçalho
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
