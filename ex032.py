@@ -22,11 +22,23 @@
 #                             Bibliotecas                                     #
 ###############################################################################
 
+from calendar import leapdays
+
 ###############################################################################
 #                             Variáveis                                       #
 ###############################################################################
+
+AnoDoCalcular = int(input('Qual o ano que você quer saber se é bissexto?\n>>> '))
+
+AnoMaisUm = AnoDoCalcular + 1
+
+RespostaDoBissexto = leapdays(AnoDoCalcular, AnoMaisUm)
 
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
 
+if (RespostaDoBissexto > 0):
+     print('O ano {} é bisexto.'.format(AnoDoCalcular))
+else:
+     print('O ano {} não é bissexto'.format(AnoDoCalcular))
