@@ -14,8 +14,9 @@
 #   v0.0.1 2022-05-22, Jefferson Santana:
 #       - Versão inicial
 #       - Criado cabeçalho
-#   v0.0.1 2022-05-22, Jefferson Santana:
+#   v0.0.2 2022-05-27, Jefferson Santana:
 #       - Criado variável para receber o primeiro número
+#       - Criado variável para receber o segundo número
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -29,6 +30,8 @@
 ###############################################################################
 
 PrimeniroNumero = int(print('Digite um número inteiro: '))
+
+SegundoNumero = int(print('Digite um número inteiro:'))
 
 ###############################################################################
 #                             Programa Principal                              #
