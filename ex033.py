@@ -18,6 +18,7 @@
 #       - Criado variável para receber o primeiro número
 #       - Criado variável para receber o segundo número
 #       - Criado variável para receber o terceiro número
+#       - Correção na gramática das variáveis
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -30,13 +31,12 @@
 #                             Variáveis                                       #
 ###############################################################################
 
-PrimeniroNumero = int(print('Digite um número inteiro: '))
+PrimeniroNumero = int(input('Digite um número inteiro: '))
 
-SegundoNumero = int(print('Digite um número inteiro:'))
+SegundoNumero = int(input('Digite um número inteiro: '))
 
-TerceiroNumero = int(print('Digite um número interiro'))
+TerceiroNumero = int(input('Digite um número interiro: '))
 
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
-
