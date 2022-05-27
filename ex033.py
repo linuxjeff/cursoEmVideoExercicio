@@ -17,6 +17,7 @@
 #   v0.0.2 2022-05-27, Jefferson Santana:
 #       - Criado variável para receber o primeiro número
 #       - Criado variável para receber o segundo número
+#       - Criado variável para receber o terceiro número
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -32,6 +33,8 @@
 PrimeniroNumero = int(print('Digite um número inteiro: '))
 
 SegundoNumero = int(print('Digite um número inteiro:'))
+
+TerceiroNumero = int(print('Digite um número interiro'))
 
 ###############################################################################
 #                             Programa Principal                              #
