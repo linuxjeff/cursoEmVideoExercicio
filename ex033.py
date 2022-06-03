@@ -22,6 +22,7 @@
 #   v0.0.2 2022-06-03, Jefferson Santana:
 #       - Criado if para teste do maior número
 #       - Criando if para teste do menor número
+#       - Criado o printe final
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -67,3 +68,4 @@ else:
     else:
         MenorNumero = TerceiroNumero
 
+print('O menor número é {} e o maior número é {}'.format(MenorNumero, MaiorNumero))
