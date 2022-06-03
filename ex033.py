@@ -20,7 +20,8 @@
 #       - Criado variável para receber o terceiro número
 #       - Correção na gramática das variáveis
 #   v0.0.2 2022-06-03, Jefferson Santana:
-#       - Criado if para teste do maior numero
+#       - Criado if para teste do maior número
+#       - Criando if para teste do menor número
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -42,7 +43,7 @@ TerceiroNumero = int(input('Digite um número interiro: '))
 ###############################################################################
 #                             Programa Principal                              #
 ###############################################################################
-# if para teste do maior número
+# If para teste do maior número
 if (PrimeniroNumero > SegundoNumero):
     if (PrimeniroNumero > TerceiroNumero):
         MaiorNumero = PrimeniroNumero
@@ -53,3 +54,16 @@ else:
         MaiorNumero = SegundoNumero
     else:
         MaiorNumero = TerceiroNumero
+
+# If para teste do menor número
+if (PrimeniroNumero < SegundoNumero):
+    if (PrimeniroNumero < TerceiroNumero):
+        MenorNumero = PrimeniroNumero
+    else:
+        MenorNumero = TerceiroNumero
+else:
+    if (SegundoNumero < TerceiroNumero):
+        MenorNumero = SegundoNumero
+    else:
+        MenorNumero = TerceiroNumero
+
