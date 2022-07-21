@@ -14,6 +14,8 @@
 #   v0.0.1 2022-05-22, Jefferson Santana:
 #       - Versão inicial
 #       - Criado o cabeçalho
+#   v0.0.2 2022-07-21, Jefferson Santana:
+#       - Colocado 0 como ano atual
 #
 # -----------------------------------------------------------------------------
 # Licença: MTI
@@ -23,12 +25,16 @@
 ###############################################################################
 
 from calendar import leapdays
+from datetime import date
 
 ###############################################################################
 #                             Variáveis                                       #
 ###############################################################################
 
-AnoDoCalcular = int(input('Qual o ano que você quer saber se é bissexto?\n>>> '))
+AnoDoCalcular = int(input('Qual o ano que você quer saber se é bissexto(ditite 0 para o ano atual)?\n>>> '))
+
+if (AnoDoCalcular == 0):
+     AnoDoCalcular = date.today().year
 
 AnoMaisUm = AnoDoCalcular + 1
 
