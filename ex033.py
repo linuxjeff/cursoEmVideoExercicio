@@ -45,25 +45,25 @@ TerceiroNumero = int(input('Digite um número interiro: '))
 #                             Programa Principal                              #
 ###############################################################################
 # If para teste do maior número
-if (PrimeniroNumero > SegundoNumero):
-    if (PrimeniroNumero > TerceiroNumero):
+if PrimeniroNumero > SegundoNumero:
+    if PrimeniroNumero > TerceiroNumero:
         MaiorNumero = PrimeniroNumero
     else:
         MaiorNumero = TerceiroNumero
 else:
-    if (SegundoNumero > TerceiroNumero):
+    if SegundoNumero > TerceiroNumero:
         MaiorNumero = SegundoNumero
     else:
         MaiorNumero = TerceiroNumero
 
 # If para teste do menor número
-if (PrimeniroNumero < SegundoNumero):
-    if (PrimeniroNumero < TerceiroNumero):
+if PrimeniroNumero < SegundoNumero:
+    if PrimeniroNumero < TerceiroNumero:
         MenorNumero = PrimeniroNumero
     else:
         MenorNumero = TerceiroNumero
 else:
-    if (SegundoNumero < TerceiroNumero):
+    if SegundoNumero < TerceiroNumero:
         MenorNumero = SegundoNumero
     else:
         MenorNumero = TerceiroNumero

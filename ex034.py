@@ -18,4 +18,4 @@ if  (ValorAtualDoSalario <= 1250.00 ):
 else:
     Aumento = (ValorAtualDoSalario / 100) * 10
 
-print('O funcionário {} terá um aumento de {:.2f} que deixara o seu salário no valor de: {:.2f}'.format(NomeDoFuncionario, Aumento, (Aumento + ValorAtualDoSalario)))
+print('O funcionário {} terá um aumento de R$ {:.2f} que deixara o seu salário no valor de: R$ {:.2f}'.format(NomeDoFuncionario, Aumento, (Aumento + ValorAtualDoSalario)))
